@@ -142,7 +142,9 @@ address.
   <li>Fri. Nov 22 13:00 to 17:00 room B0.209</li>
 <br>
 </ul>
-
+<p id="includes">
+  <strong>Included:</strong> Coffee and tea will be included, Lunch is <u>not</u> Included.
+</p>
 
 
 
