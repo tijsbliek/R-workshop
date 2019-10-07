@@ -18,7 +18,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-
+<h1 id="general">Introduction to Open Data Science with R<br><br></h1>
 {% comment %}
 HEADER
 
@@ -81,6 +81,14 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
+{% if page.carpentry == "dc" %}
+{% include dc/intro3.html %}
+{% endif %}
+
+<h3 id="general">Who are we</h3>
+
+
+
 {% if page.carpentry == "swc" %}
 {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
